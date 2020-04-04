@@ -18,22 +18,22 @@
   top: 3px;
   left: 0;
   transition: 0.2s ease-out all;
-  font-size: 16px;
+  font-size: 14x;
 }
 
 .input,
 .textarea {
   color: #7d7d7d;
-  font-size: 16px;
+  font-size: 14px;
   border: none;
-  line-height: 22px;
+  line-height: 20px;
   width: 100%;
   background: none;
 }
 
 .textarea {
   resize: none;
-  min-height: 150px;
+  min-height: 100px;
 }
 
 .input:focus,
@@ -43,13 +43,13 @@
 
 .input:focus + .label,
 .textarea:focus + .label {
-  top: -22px;
+  top: -20px;
   font-size: 13px;
 }
 
 .input:not(:placeholder-shown) + .label,
 .textarea:not(:placeholder-shown) + .label {
-  top: -22px;
+  top: -20px;
   font-size: 13px;
 }
 
